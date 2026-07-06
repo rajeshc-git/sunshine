@@ -1784,3 +1784,15 @@ body.light-theme .train-console h3 {
 body.light-theme .train-progress-bar {
     background-color: rgba(0, 0, 0, 0.06);
 }
+
+/* Ensure text is a highly readable black on hover in light mode */
+body.light-theme .sensor-check-item:hover,
+body.light-theme .symptom-toggle-item:hover,
+body.light-theme .shutdown-item:hover,
+body.light-theme .causal-connections-list li:hover,
+body.light-theme .stat-card:hover,
+body.light-theme .nav-btn:hover,
+body.light-theme .theme-toggle-btn:hover,
+body.light-theme .sensor-lbl-text:hover {
+    color: #000000 !important;
+}

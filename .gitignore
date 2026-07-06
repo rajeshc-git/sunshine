@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+.dockerignore
+
+# Data artifacts (keep structure, ignore large generated files)
+data/*.json
+data/*.npy
+!data/training_data_full.csv
+
+# Node
+node_modules/
+
+# Logs
+*.log

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  rca-dashboard:
+    build: .
+    container_name: sunshine_rca_dashboard
+    ports:
+      - "2026:2026"
+    volumes:
+      # Mount the data folder so model retraining is saved back to the host persistently
+      - ./data:/app/data
+    environment:
+      - HOST=0.0.0.0
+      - PORT=2026

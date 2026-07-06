@@ -848,22 +848,23 @@ def get_training_status():
 
 # ----------------- Static Files & Index Router -----------------
 
+app.mount("/assets", StaticFiles(directory="frontend/assets"), name="assets")
+
 @app.get("/")
 def serve_index():
     return FileResponse("frontend/index.html")
 
-# Serve project files directly
-@app.get("/app.js")
-def serve_js():
-    return FileResponse("frontend/app.js")
-
-@app.get("/style.css")
-def serve_css():
-    return FileResponse("frontend/style.css")
-
 @app.get("/data.js")
 def serve_data():
     return FileResponse("frontend/data.js")
+
+@app.get("/favicon.svg")
+def serve_favicon():
+    return FileResponse("frontend/favicon.svg")
+
+@app.get("/icons.svg")
+def serve_icons():
+    return FileResponse("frontend/icons.svg")
 
 if __name__ == "__main__":
     import uvicorn

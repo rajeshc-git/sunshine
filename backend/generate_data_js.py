@@ -44,9 +44,12 @@ def generate():
 
         
     # Write data.js
-    with open("frontend/data.js", "w", encoding="utf-8") as f:
-        f.write(js_content)
-    print("Successfully generated data.js!")
+    output_paths = ["frontend/data.js", "frontend_new/public/data.js"]
+    for path in output_paths:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(js_content)
+    print("Successfully generated data.js in both frontend and react public directories!")
 
 if __name__ == "__main__":
     generate()

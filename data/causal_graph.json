@@ -1,0 +1,388 @@
+{
+    "nodes": [
+        {
+            "id": "Plant Load",
+            "label": "Plant Load",
+            "unit": "kg/hr",
+            "range": "30,000 - 60,000",
+            "tag": "YS.HD.45FQI201.PV"
+        },
+        {
+            "id": "1st stage  Bed Level",
+            "label": "1st stage  Bed Level",
+            "unit": "kPa",
+            "range": "4.5 - 5.0",
+            "tag": "YS.HD.46PDI471B.PV"
+        },
+        {
+            "id": "2nd stage  Bed Level",
+            "label": "2nd stage  Bed Level",
+            "unit": "kPa",
+            "range": "4.5 - 5.0",
+            "tag": "YS.HD.46PDC472B.PV"
+        },
+        {
+            "id": "Interstage PDC",
+            "label": "Interstage PDC",
+            "unit": "kPa",
+            "range": "0.02 - 0.5",
+            "tag": "YS.HD.46PDC472C.PV"
+        },
+        {
+            "id": "FBD Bed Temperature  at 3rd Panel",
+            "label": "FBD Bed Temperature  at 3rd Panel",
+            "unit": "\u00b0C",
+            "range": "65 - 73",
+            "tag": "YS.HD.46TI471B.PV"
+        },
+        {
+            "id": "FBD Bed Temperature  at 5th Panel",
+            "label": "FBD Bed Temperature  at 5th Panel",
+            "unit": "\u00b0C",
+            "range": "65 - 73",
+            "tag": "YS.HD.46TI471A.PV"
+        },
+        {
+            "id": "FBD Bed Temperature  at 7th Panel",
+            "label": "FBD Bed Temperature  at 7th Panel",
+            "unit": "\u00b0C",
+            "range": "65 - 73",
+            "tag": "YS.HD.46TT481.PV"
+        },
+        {
+            "id": "FBD Bed Temperature  at 10th Panel",
+            "label": "FBD Bed Temperature  at 10th Panel",
+            "unit": "\u00b0C",
+            "range": "68 - 72",
+            "tag": "YS.HD.46TI472B.PV"
+        },
+        {
+            "id": "FBD Bed Temperature  at 12th Panel",
+            "label": "FBD Bed Temperature  at 12th Panel",
+            "unit": "\u00b0C",
+            "range": "72 - 75",
+            "tag": "YS.HD.46TI472A.PV"
+        },
+        {
+            "id": "FBD Bed Temperature  at 14th Panel",
+            "label": "FBD Bed Temperature  at 14th Panel",
+            "unit": "\u00b0C",
+            "range": "75 - 78",
+            "tag": "YS.HD.46TT482.PV"
+        },
+        {
+            "id": "FBD Off Gas Temperature (1st stage)",
+            "label": "FBD Off Gas Temperature (1st stage)",
+            "unit": "\u00b0C",
+            "range": "64 - 65",
+            "tag": "YS.HD.46TI474.PV"
+        },
+        {
+            "id": "FBD Off Gas Temperature (2nd stage)",
+            "label": "FBD Off Gas Temperature (2nd stage)",
+            "unit": "\u00b0C",
+            "range": "73 - 78",
+            "tag": "YS.HD.46TI476.PV"
+        },
+        {
+            "id": "Hot N2 Temperature (1st stage)",
+            "label": "Hot N2 Temperature (1st stage)",
+            "unit": "\u00b0C",
+            "range": "75 - 95",
+            "tag": "YS.HD.46TC461.PV"
+        },
+        {
+            "id": "Hot N2 Flow",
+            "label": "Hot N2 Flow",
+            "unit": "m3/hr",
+            "range": "12,500 - 13,000",
+            "tag": "YS.HD.46FC461.PV"
+        },
+        {
+            "id": "FBD Blower  B-4601 Current (A)",
+            "label": "FBD Blower  B-4601 Current (A)",
+            "unit": "A",
+            "range": "105 - 120",
+            "tag": "YS.HD.46II522.PV"
+        },
+        {
+            "id": "FBD Blower  B-4602 Current (A)",
+            "label": "FBD Blower  B-4602 Current (A)",
+            "unit": "A",
+            "range": "85 - 105",
+            "tag": "YS.HD.46II513.PV"
+        },
+        {
+            "id": "L-1 HC Concentration",
+            "label": "L-1 HC Concentration",
+            "unit": "%",
+            "range": "7 - 9",
+            "tag": "YS.HD.46AI541A.PV"
+        },
+        {
+            "id": "L-1 Conveying Pressure",
+            "label": "L-1 Conveying Pressure",
+            "unit": "kPag",
+            "range": "85 - 110",
+            "tag": "YS.HD.46PI524.PV"
+        },
+        {
+            "id": "Decanter A Current (A)",
+            "label": "Decanter A Current (A)",
+            "unit": "A",
+            "range": "250 - 360",
+            "tag": "YS.HD.46IC411.PV"
+        },
+        {
+            "id": "Decanter B Current (A)",
+            "label": "Decanter B Current (A)",
+            "unit": "A",
+            "range": "250 - 360",
+            "tag": "YS.HD.46IC421.PV"
+        },
+        {
+            "id": "Decanter C Current (A)",
+            "label": "Decanter C Current (A)",
+            "unit": "A",
+            "range": "250 - 360",
+            "tag": "YS.HD.46IC431.PV"
+        },
+        {
+            "id": "Decanter D Current (A)",
+            "label": "Decanter D Current (A)",
+            "unit": "A",
+            "range": "250 - 360",
+            "tag": "YS.HD.46IC449.PV"
+        },
+        {
+            "id": "V-4607 Temperature",
+            "label": "V-4607 Temperature",
+            "unit": "\u00b0C",
+            "range": "42 - 46",
+            "tag": "YS.HD.46TI315.PV"
+        },
+        {
+            "id": "V-4607 Level",
+            "label": "V-4607 Level",
+            "unit": "%",
+            "range": "20 - 30",
+            "tag": "YS.HD.46LC316.PV"
+        },
+        {
+            "id": "V-4607 Pressure",
+            "label": "V-4607 Pressure",
+            "unit": "kPag",
+            "range": "10 - 20",
+            "tag": "YS.HD.46PT313.PV"
+        },
+        {
+            "id": "P-4612A Current (A)",
+            "label": "P-4612A Current (A)",
+            "unit": "A",
+            "range": "80 - 105",
+            "tag": "YS.HD.46II312AA.PV"
+        },
+        {
+            "id": "P-4612B Current (A)",
+            "label": "P-4612B Current (A)",
+            "unit": "A",
+            "range": "80 - 105",
+            "tag": "YS.HD.46II312BA.PV"
+        },
+        {
+            "id": "C-4601 Level",
+            "label": "C-4601 Level",
+            "unit": "%",
+            "range": "30 - 40",
+            "tag": "YS.HD.46LC490.PV"
+        },
+        {
+            "id": "C-4601 Top Temperature",
+            "label": "C-4601 Top Temperature",
+            "unit": "\u00b0C",
+            "range": "20 - 23",
+            "tag": "YS.HD.46TC490.PV"
+        },
+        {
+            "id": "C-4601 Diff. Pressure",
+            "label": "C-4601 Diff. Pressure",
+            "unit": "kPa",
+            "range": "1.5 - 3",
+            "tag": "YS.HD.46PDI494.PV"
+        },
+        {
+            "id": "P-4614A/B Recovered Flow",
+            "label": "P-4614A/B Recovered Flow",
+            "unit": "m3/hr",
+            "range": "10 - 18",
+            "tag": "YS.HD.46FI493.PV"
+        }
+    ],
+    "links": [
+        {
+            "source": "Plant Load",
+            "target": "Hot N2 Flow",
+            "weight": 0.699
+        },
+        {
+            "source": "Plant Load",
+            "target": "FBD Blower  B-4601 Current (A)",
+            "weight": 0.792
+        },
+        {
+            "source": "Plant Load",
+            "target": "FBD Blower  B-4602 Current (A)",
+            "weight": 0.79
+        },
+        {
+            "source": "Hot N2 Flow",
+            "target": "Hot N2 Temperature (1st stage)",
+            "weight": 0.823
+        },
+        {
+            "source": "Hot N2 Temperature (1st stage)",
+            "target": "FBD Bed Temperature  at 3rd Panel",
+            "weight": 0.481
+        },
+        {
+            "source": "FBD Bed Temperature  at 3rd Panel",
+            "target": "FBD Bed Temperature  at 5th Panel",
+            "weight": 0.495
+        },
+        {
+            "source": "FBD Bed Temperature  at 5th Panel",
+            "target": "FBD Bed Temperature  at 7th Panel",
+            "weight": 0.593
+        },
+        {
+            "source": "FBD Bed Temperature  at 7th Panel",
+            "target": "FBD Bed Temperature  at 10th Panel",
+            "weight": 0.816
+        },
+        {
+            "source": "FBD Bed Temperature  at 10th Panel",
+            "target": "FBD Bed Temperature  at 12th Panel",
+            "weight": 0.942
+        },
+        {
+            "source": "FBD Bed Temperature  at 12th Panel",
+            "target": "FBD Bed Temperature  at 14th Panel",
+            "weight": 0.957
+        },
+        {
+            "source": "FBD Bed Temperature  at 14th Panel",
+            "target": "FBD Off Gas Temperature (1st stage)",
+            "weight": 0.657
+        },
+        {
+            "source": "FBD Bed Temperature  at 14th Panel",
+            "target": "FBD Off Gas Temperature (2nd stage)",
+            "weight": 0.922
+        },
+        {
+            "source": "FBD Blower  B-4601 Current (A)",
+            "target": "1st stage  Bed Level",
+            "weight": 0.85
+        },
+        {
+            "source": "FBD Blower  B-4602 Current (A)",
+            "target": "2nd stage  Bed Level",
+            "weight": 0.871
+        },
+        {
+            "source": "1st stage  Bed Level",
+            "target": "Interstage PDC",
+            "weight": -0.089
+        },
+        {
+            "source": "2nd stage  Bed Level",
+            "target": "Interstage PDC",
+            "weight": -0.005
+        },
+        {
+            "source": "L-1 Conveying Pressure",
+            "target": "Decanter A Current (A)",
+            "weight": 0.578
+        },
+        {
+            "source": "L-1 Conveying Pressure",
+            "target": "Decanter B Current (A)",
+            "weight": 0.455
+        },
+        {
+            "source": "L-1 Conveying Pressure",
+            "target": "Decanter C Current (A)",
+            "weight": 0.759
+        },
+        {
+            "source": "L-1 Conveying Pressure",
+            "target": "Decanter D Current (A)",
+            "weight": 0.756
+        },
+        {
+            "source": "Decanter A Current (A)",
+            "target": "V-4607 Level",
+            "weight": -0.236
+        },
+        {
+            "source": "Decanter B Current (A)",
+            "target": "V-4607 Level",
+            "weight": -0.437
+        },
+        {
+            "source": "Decanter C Current (A)",
+            "target": "V-4607 Level",
+            "weight": -0.677
+        },
+        {
+            "source": "Decanter D Current (A)",
+            "target": "V-4607 Level",
+            "weight": -0.645
+        },
+        {
+            "source": "V-4607 Level",
+            "target": "V-4607 Temperature",
+            "weight": -0.463
+        },
+        {
+            "source": "V-4607 Level",
+            "target": "V-4607 Pressure",
+            "weight": 0.141
+        },
+        {
+            "source": "V-4607 Pressure",
+            "target": "P-4612A Current (A)",
+            "weight": 0.064
+        },
+        {
+            "source": "V-4607 Pressure",
+            "target": "P-4612B Current (A)",
+            "weight": 0.021
+        },
+        {
+            "source": "P-4612A Current (A)",
+            "target": "C-4601 Level",
+            "weight": 0.201
+        },
+        {
+            "source": "P-4612B Current (A)",
+            "target": "C-4601 Level",
+            "weight": 0.232
+        },
+        {
+            "source": "C-4601 Level",
+            "target": "C-4601 Top Temperature",
+            "weight": -0.651
+        },
+        {
+            "source": "C-4601 Level",
+            "target": "C-4601 Diff. Pressure",
+            "weight": 0.876
+        },
+        {
+            "source": "C-4601 Diff. Pressure",
+            "target": "P-4614A/B Recovered Flow",
+            "weight": 0.616
+        }
+    ]
+}

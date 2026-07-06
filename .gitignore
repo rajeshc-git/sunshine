@@ -24,7 +24,6 @@ desktop.ini
 .dockerignore
 
 # Data artifacts (keep structure, ignore large generated files)
-data/*.json
 data/*.npy
 !data/training_data_full.csv
 

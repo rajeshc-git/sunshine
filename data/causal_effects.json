@@ -1,0 +1,38 @@
+{
+    "Hot N2 Flow -> FBD Bed Temperature  at 14th Panel": {
+        "treatment": "Hot N2 Flow",
+        "outcome": "FBD Bed Temperature  at 14th Panel",
+        "ate": 0.8699,
+        "confounders": [
+            "Plant Load"
+        ],
+        "method": "Linear Regression with Backdoor Adjustment"
+    },
+    "FBD Blower  B-4601 Current (A) -> Interstage PDC": {
+        "treatment": "FBD Blower  B-4601 Current (A)",
+        "outcome": "Interstage PDC",
+        "ate": 0.2883,
+        "confounders": [
+            "Plant Load"
+        ],
+        "method": "Linear Regression with Backdoor Adjustment"
+    },
+    "V-4607 Level -> V-4607 Pressure": {
+        "treatment": "V-4607 Level",
+        "outcome": "V-4607 Pressure",
+        "ate": 0.3106,
+        "confounders": [
+            "Plant Load"
+        ],
+        "method": "Linear Regression with Backdoor Adjustment"
+    },
+    "P-4612A Current (A) -> C-4601 Diff. Pressure": {
+        "treatment": "P-4612A Current (A)",
+        "outcome": "C-4601 Diff. Pressure",
+        "ate": 0.1177,
+        "confounders": [
+            "Plant Load"
+        ],
+        "method": "Linear Regression with Backdoor Adjustment"
+    }
+}

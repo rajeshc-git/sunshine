@@ -1,0 +1,194 @@
+{
+    "Production Grade": {
+        "index": 2,
+        "unit": "-",
+        "range": "-",
+        "tag": "YS.HD.TOTLRST-SF1.RGRADE"
+    },
+    "Plant Load": {
+        "index": 3,
+        "unit": "kg/hr",
+        "range": "30,000 - 60,000",
+        "tag": "YS.HD.45FQI201.PV"
+    },
+    "1st stage  Bed Level": {
+        "index": 4,
+        "unit": "kPa",
+        "range": "4.5 - 5.0",
+        "tag": "YS.HD.46PDI471B.PV"
+    },
+    "2nd stage  Bed Level": {
+        "index": 5,
+        "unit": "kPa",
+        "range": "4.5 - 5.0",
+        "tag": "YS.HD.46PDC472B.PV"
+    },
+    "Interstage PDC": {
+        "index": 6,
+        "unit": "kPa",
+        "range": "0.02 - 0.5",
+        "tag": "YS.HD.46PDC472C.PV"
+    },
+    "FBD Bed Temperature  at 3rd Panel": {
+        "index": 7,
+        "unit": "°C",
+        "range": "65 - 73",
+        "tag": "YS.HD.46TI471B.PV"
+    },
+    "FBD Bed Temperature  at 5th Panel": {
+        "index": 8,
+        "unit": "°C",
+        "range": "65 - 73",
+        "tag": "YS.HD.46TI471A.PV"
+    },
+    "FBD Bed Temperature  at 7th Panel": {
+        "index": 9,
+        "unit": "°C",
+        "range": "65 - 73",
+        "tag": "YS.HD.46TT481.PV"
+    },
+    "FBD Bed Temperature  at 10th Panel": {
+        "index": 10,
+        "unit": "°C",
+        "range": "68 - 72",
+        "tag": "YS.HD.46TI472B.PV"
+    },
+    "FBD Bed Temperature  at 12th Panel": {
+        "index": 11,
+        "unit": "°C",
+        "range": "72 - 75",
+        "tag": "YS.HD.46TI472A.PV"
+    },
+    "FBD Bed Temperature  at 14th Panel": {
+        "index": 12,
+        "unit": "°C",
+        "range": "75 - 78",
+        "tag": "YS.HD.46TT482.PV"
+    },
+    "FBD Off Gas Temperature (1st stage)": {
+        "index": 13,
+        "unit": "°C",
+        "range": "64 - 65",
+        "tag": "YS.HD.46TI474.PV"
+    },
+    "FBD Off Gas Temperature (2nd stage)": {
+        "index": 14,
+        "unit": "°C",
+        "range": "73 - 78",
+        "tag": "YS.HD.46TI476.PV"
+    },
+    "Hot N2 Temperature (1st stage)": {
+        "index": 15,
+        "unit": "°C",
+        "range": "75 - 95",
+        "tag": "YS.HD.46TC461.PV"
+    },
+    "Hot N2 Flow": {
+        "index": 16,
+        "unit": "m3/hr",
+        "range": "12,500 - 13,000",
+        "tag": "YS.HD.46FC461.PV"
+    },
+    "FBD Blower  B-4601 Current (A)": {
+        "index": 17,
+        "unit": "A",
+        "range": "105 - 120",
+        "tag": "YS.HD.46II522.PV"
+    },
+    "FBD Blower  B-4602 Current (A)": {
+        "index": 18,
+        "unit": "A",
+        "range": "85 - 105",
+        "tag": "YS.HD.46II513.PV"
+    },
+    "L-1 HC Concentration": {
+        "index": 19,
+        "unit": "%",
+        "range": "7 - 9",
+        "tag": "YS.HD.46AI541A.PV"
+    },
+    "L-1 Conveying Pressure": {
+        "index": 20,
+        "unit": "kPag",
+        "range": "85 - 110",
+        "tag": "YS.HD.46PI524.PV"
+    },
+    "Decanter A Current (A)": {
+        "index": 21,
+        "unit": "A",
+        "range": "250 - 360",
+        "tag": "YS.HD.46IC411.PV"
+    },
+    "Decanter B Current (A)": {
+        "index": 22,
+        "unit": "A",
+        "range": "250 - 360",
+        "tag": "YS.HD.46IC421.PV"
+    },
+    "Decanter C Current (A)": {
+        "index": 23,
+        "unit": "A",
+        "range": "250 - 360",
+        "tag": "YS.HD.46IC431.PV"
+    },
+    "Decanter D Current (A)": {
+        "index": 24,
+        "unit": "A",
+        "range": "250 - 360",
+        "tag": "YS.HD.46IC449.PV"
+    },
+    "V-4607 Temperature": {
+        "index": 25,
+        "unit": "°C",
+        "range": "42 - 46",
+        "tag": "YS.HD.46TI315.PV"
+    },
+    "V-4607 Level": {
+        "index": 26,
+        "unit": "%",
+        "range": "20 - 30",
+        "tag": "YS.HD.46LC316.PV"
+    },
+    "V-4607 Pressure": {
+        "index": 27,
+        "unit": "kPag",
+        "range": "10 - 20",
+        "tag": "YS.HD.46PT313.PV"
+    },
+    "P-4612A Current (A)": {
+        "index": 28,
+        "unit": "A",
+        "range": "80 - 105",
+        "tag": "YS.HD.46II312AA.PV"
+    },
+    "P-4612B Current (A)": {
+        "index": 29,
+        "unit": "A",
+        "range": "80 - 105",
+        "tag": "YS.HD.46II312BA.PV"
+    },
+    "C-4601 Level": {
+        "index": 30,
+        "unit": "%",
+        "range": "30 - 40",
+        "tag": "YS.HD.46LC490.PV"
+    },
+    "C-4601 Top Temperature": {
+        "index": 31,
+        "unit": "°C",
+        "range": "20 - 23",
+        "tag": "YS.HD.46TC490.PV"
+    },
+    "C-4601 Diff. Pressure": {
+        "index": 32,
+        "unit": "kPa",
+        "range": "1.5 - 3",
+        "tag": "YS.HD.46PDI494.PV"
+    },
+    "P-4614A/B Recovered Flow": {
+        "index": 33,
+        "unit": "m3/hr",
+        "range": "10 - 18",
+        "tag": "YS.HD.46FI493.PV"
+    }
+}
